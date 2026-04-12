@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: delivery-tracking
-        image: hakkash26/delivery-tracking-system:latest
+        image: hakkash26/delivery:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
